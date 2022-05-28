@@ -1,0 +1,95 @@
+
+
+/********************** our team sec 4 **********************/
+
+.background {
+    background: var(--sec-backgtound-color);
+  }
+  
+  .team__main-title {
+    margin: 0;
+    margin-bottom: 50px;
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+  }
+  
+  .team__item {
+    margin-right: 30px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+    background: var(--fff-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .team__item:last-child {
+    margin-right: 0;
+  }
+  
+  .team__list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  .team__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+  }
+  
+  .team__descript {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--descript-color);
+  }
+  
+  .team__soc-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .team__item-soc + .team__item-soc {
+    margin-left: 10px;
+  }
+  
+  .team__link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--fff-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .team__link:hover,
+  .team__link:focus {
+    background-color: var(--brand-color);
+  }
+  
+  .team__soc-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--fill-icon);
+  }
+  
+  .team__link:hover .team__soc-icon {
+    fill: var(--fff-color);
+  }
+  
+  .team__link:hover .team__soc-icon {
+    fill: var(--fff-color);
+  }
+  

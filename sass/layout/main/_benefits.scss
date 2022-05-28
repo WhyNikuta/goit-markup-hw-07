@@ -1,0 +1,60 @@
+
+
+/********************** our benefits sec 2 **********************/
+
+.title-text {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+  }
+  
+  .flex-container {
+    display: flex;
+  
+  }
+  
+  .descript .benefits__item {
+    width: 270px;
+  }
+  
+  .benefits__item {
+    margin-right: 30px;
+  }
+  
+  .benefits__item:last-child {
+    margin-right: 0;
+  }
+  
+  .benefits__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: var(--sec-backgtound-color);
+    border-radius: 4px;
+  }
+  
+  .benefits__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+  }
+  
+  .benefits__descript {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--descript-color);
+  }

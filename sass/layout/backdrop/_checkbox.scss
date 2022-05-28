@@ -1,0 +1,54 @@
+/********************** checkbox **********************/
+
+.form__checkbox-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.form__checkbox {
+  background-color: var(--brand-color);
+  border-radius: 2px;
+  margin-right: 4px;
+}
+
+.form__checkbox-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--descript-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form__checkbox-text::before {
+  content: "";
+  height: 16px;
+  width: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  display: block;
+  margin-right: 8px;
+}
+
+.form__checkbox-a {
+  color: var(--brand-color);
+}
+
+.form__checkbox:checked + .form__checkbox-text::before {
+  background-color: var(--brand-color);
+  border: none;
+  background-image: url(../images/modal/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* checkbox */

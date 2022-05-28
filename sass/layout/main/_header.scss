@@ -1,0 +1,144 @@
+/********************** main **********************/
+.header {
+    border-bottom: 1px solid var(--header-bgrcolor);
+  }
+  
+  .header-flex {
+    display: flex;
+  }
+  
+  /* main */
+  
+  /********************** navigation **********************/
+  .navigation-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation {
+    display: flex;
+    margin-left: 93px;
+  }
+  
+  .navigation .navigation__link:hover,
+  .navigation .navigation__link:focus {
+    color: var(--brand-color);
+  }
+  
+  .navigation .navigation__item + .navigation__item {
+    margin-left: 50px;
+  }
+  
+  .navigation .navigation__link {
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+  
+  .navigation__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--title-color);
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /********************** logo **********************/
+  
+  .logo {
+    display: block;
+    text-decoration: none;
+  
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  
+  .logo__accent {
+    color: var(--brand-color);
+  }
+  
+  .logo__white {
+    color: var(--amogus-color);
+  }
+  
+  .logo-footer {
+    margin-bottom: 20px;
+  }
+  
+  .logo__footer {
+    color: var(--fff-color);
+  }
+  
+  /* logo */
+  
+  /********************** contact **********************/
+  
+  .contact {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .contact .contact__item + .contact__item {
+    margin-left: 30px;
+  }
+  
+  .contact__link {
+    padding: 32px 0;
+  
+    align-items: center;
+    display: flex;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--descript-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contact__link:hover,
+  .contact__link:focus {
+    color: var(--brand-color);
+  }
+  
+  .contact__icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+  
+  /* contact */
+
+  
+/* indicator activ page */
+#active-now {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+    position: relative;
+  }
+
+  
+  #active-now::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: var(--brand-color);
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    margin-bottom: -1px;
+  }
+
+    /* / indicator activ page */
+
+  
